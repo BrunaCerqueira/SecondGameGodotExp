@@ -222,6 +222,7 @@ position = Vector2(1, -4)
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(-1, 4)
 zoom = Vector2(4, 4)
+limit_bottom = 98
 position_smoothing_enabled = true
 
 [node name="Plataform" parent="." instance=ExtResource("3_66wur")]
